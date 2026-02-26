@@ -10,6 +10,10 @@ import RiskPrediction from "./pages/RiskPrediction";
 import RiskAnalysis from "./pages/RiskAnalysis";
 import AIActions from "./pages/AIActions";
 import WhatIfSimulator from "./pages/WhatIfSimulator";
+import ShipmentTimeline from "./pages/ShipmentTimeline";
+import CarrierScoreboard from "./pages/CarrierScoreboard";
+import CostRiskOptimizer from "./pages/CostRiskOptimizer";
+import CarbonTracker from "./pages/CarbonTracker";
 import AdminMonitoring from "./pages/AdminMonitoring";
 import AdminAlerts from "./pages/AdminAlerts";
 import AdminInsights from "./pages/AdminInsights";
@@ -33,6 +37,10 @@ const App = () => (
           <Route path="/risk-analysis" element={<RiskAnalysis />} />
           <Route path="/ai-actions" element={<AIActions />} />
           <Route path="/what-if" element={<WhatIfSimulator />} />
+          <Route path="/shipment-timeline" element={<ShipmentTimeline />} />
+          <Route path="/carrier-scoreboard" element={<CarrierScoreboard />} />
+          <Route path="/cost-risk" element={<CostRiskOptimizer />} />
+          <Route path="/carbon-tracker" element={<CarbonTracker />} />
           <Route path="/admin/monitoring" element={<AdminMonitoring />} />
           <Route path="/admin/alerts" element={<AdminAlerts />} />
           <Route path="/admin/insights" element={<AdminInsights />} />
