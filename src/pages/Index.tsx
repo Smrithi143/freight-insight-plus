@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import { ArrowRight, Shield, Zap, BarChart3, Clock, TrendingUp, Globe as GlobeIcon } from "lucide-react";
 import { Suspense, lazy } from "react";
 import AlertTicker from "@/components/AlertTicker";
+import Chatbot from "@/components/Chatbot";
 
 const Globe = lazy(() => import("@/components/Globe"));
 
@@ -163,6 +164,8 @@ const Index = () => {
           <p className="text-xs text-muted-foreground">© 2026 FreightIQ. Predictive Delay & Risk Assessment.</p>
         </div>
       </footer>
+
+      <Chatbot />
     </div>
   );
 };
