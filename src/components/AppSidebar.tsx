@@ -1,4 +1,4 @@
-import { Ship, LayoutDashboard, Package, AlertTriangle, BarChart3, Brain, FlaskConical, Globe, Bell, TrendingUp, LogOut, Clock, Trophy, DollarSign, Leaf } from "lucide-react";
+import { Ship, LayoutDashboard, Package, AlertTriangle, BarChart3, Brain, FlaskConical, Globe, Bell, TrendingUp, LogOut, Clock, Trophy, DollarSign, Leaf, Cpu } from "lucide-react";
 import { NavLink } from "@/components/NavLink";
 import {
   Sidebar,
@@ -24,6 +24,7 @@ const userLinks = [
   { to: "/carrier-scoreboard", icon: Trophy, label: "Carrier Scoreboard" },
   { to: "/cost-risk", icon: DollarSign, label: "Cost vs Risk" },
   { to: "/carbon-tracker", icon: Leaf, label: "Carbon Tracker" },
+  { to: "/ml-prediction", icon: Cpu, label: "ML ETA Prediction" },
 ];
 
 const adminLinks = [
